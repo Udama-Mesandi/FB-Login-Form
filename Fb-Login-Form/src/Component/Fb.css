@@ -31,7 +31,29 @@ body {
     font-size: 1.5rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1rem;
+    width: 430px;
+    height: 380px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
 
+#email-phone {
+    
+    height: 60px;
+   
+    font-size: 1.1rem;
+  }
+
+#create-account{
+    background-color:#03ad06 ;
+    color: #f2f4f7;
+}
+  
   
   
   
